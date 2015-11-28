@@ -7,6 +7,7 @@ public class AuthenticationBean {
 
 	private String login;
 	private String password;
+	public String hello;
 
 	public String getPassword() {
 		return password;
