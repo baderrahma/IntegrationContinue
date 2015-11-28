@@ -33,7 +33,7 @@
 	</properties>
 	<build>
 		<finalName>${project.artifactId}</finalName>
-		<defaultGoal>clean install wildfly:deploy</defaultGoal>
+		<defaultGoal>clean install wildfly:deploy sonar:sonar</defaultGoal>
 		<plugins>
 			<plugin>
 				<groupId>org.wildfly.plugins</groupId>
