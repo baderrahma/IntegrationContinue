@@ -13,6 +13,7 @@
 			<scope>provided</scope>
 		</dependency>
 
+
 		<dependency>
 			<groupId>javax.mail</groupId>
 			<artifactId>mail</artifactId>
@@ -39,11 +40,12 @@
 				<artifactId>wildfly-maven-plugin</artifactId>
 				<version>1.0.2.Final</version>
 				<configuration>
-					<port>10090</port>
+					<port>9990</port>
 					<filename>${project.artifactId}.war</filename>
 				</configuration>
 			</plugin>
 			<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-ejb-plugin</artifactId>
 				<configuration>
 					<ejbVersion>3.2</ejbVersion>
