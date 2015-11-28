@@ -33,7 +33,7 @@
 	</properties>
 	<build>
 		<finalName>${project.artifactId}</finalName>
-		<defaultGoal>clean install wildfly:deploy sonar:sonar</defaultGoal>
+		<defaultGoal>clean install wildfly:deploy</defaultGoal>
 		<plugins>
 			<plugin>
 				<groupId>org.wildfly.plugins</groupId>
@@ -64,11 +64,4 @@
 			</plugin>
 		</plugins>
 	</build>
-	<repositories>
-		<repository>
-			<id>prime-repo</id>
-			<name>Prime Repo</name>
-			<url>http://repository.primefaces.org</url>
-		</repository>
-	</repositories>
 </project>
