@@ -52,20 +52,13 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-war-plugin</artifactId>
-				<configuration>
+				 <configuration>
 					<archive>
 						<manifestEntries>
 							<Dependencies>org.slf4j</Dependencies>
 						</manifestEntries>
 					</archive>
-				</configuration>
-			</plugin>
-			<plugin>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<configuration>
-					<source>1.8</source>
-					<target>1.8</target>
-				</configuration>
+				</configuration> s
 			</plugin>
 		</plugins>
 	</build>
