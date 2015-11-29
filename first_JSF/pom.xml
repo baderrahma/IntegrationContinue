@@ -12,6 +12,11 @@
 			<version>7.0</version>
 			<scope>provided</scope>
 		</dependency>
+<dependency>
+	<groupId>org.wildfly</groupId>
+	<artifactId>wildfly-cli</artifactId>
+	<version>8.2.1.Final</version>
+</dependency>
 
 
 		<dependency>
@@ -33,7 +38,7 @@
 	</properties>
 	<build>
 		<finalName>${project.artifactId}</finalName>
-		<defaultGoal>clean install wildfly:deploy</defaultGoal>
+		<defaultGoal>clean install wildfly:deploy sonar:sonar</defaultGoal>
 		<plugins>
 			<plugin>
 				<groupId>org.wildfly.plugins</groupId>
