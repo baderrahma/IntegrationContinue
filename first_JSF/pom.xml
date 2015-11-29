@@ -58,7 +58,7 @@
 							<Dependencies>org.slf4j</Dependencies>
 						</manifestEntries>
 					</archive>
-				</configuration> s
+				</configuration> 
 			</plugin>
 		</plugins>
 	</build>
