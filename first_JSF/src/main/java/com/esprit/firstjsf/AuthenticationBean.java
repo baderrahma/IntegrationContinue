@@ -5,6 +5,7 @@ import javax.faces.bean.ManagedBean;
 @ManagedBean
 public class AuthenticationBean {
 
+	//test
 	private String login;
 	private String password;
 	public String hello;
